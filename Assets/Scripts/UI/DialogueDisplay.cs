@@ -9,8 +9,11 @@ public class DialogueDisplay : MonoBehaviour
 {
     #region Inspector members
 
+    public GameObject dialoguePanel;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
+
+    public GameObject dialogueOptionButtonPrefab;
 
     public float characterOutputDelay;
 
@@ -97,6 +100,7 @@ public class DialogueDisplay : MonoBehaviour
         this.options = options;
         this.outputCompleteCallback = outputCompleteCallback;
         updateMonologueCharactersQueue();
+        updateDialogueOptions();
     }
 
     public void setMonologue(string monologue)
@@ -108,6 +112,7 @@ public class DialogueDisplay : MonoBehaviour
     public void setOptions(List<string> options)
     {
         this.options = options;
+        updateDialogueOptions();
     }
 
     public void setOutputCompleteDelegate(OutputCompleteDelegate outputCompleteCallback = null)
@@ -119,8 +124,40 @@ public class DialogueDisplay : MonoBehaviour
 
     private void updateMonologueCharactersQueue()
     {
+        // Clear current text
         monologueCharacters.Clear();
         dialogueText.text = "";
+        // Enqueue new text into character queue
         for (int i = 0; i < monologue.Length; i++) monologueCharacters.Enqueue(monologue[i]);
+    }
+
+    private void updateDialogueOptions()
+    {
+        // Clear existing objects
+        EventManager.instance.destroyDialogueOptionButtonsEvent.Invoke();
+        // Create new option button objects
+        for (int i = 0; i < options.Count; i++)
+        {
+            createOptionButtonPrefab(i, options[i]);
+        }
+    }
+
+    private void createOptionButtonPrefab(int optionIndex, string optionText)
+    {
+        // Initialize new button
+        GameObject newOptionPrefab = Instantiate(dialogueOptionButtonPrefab, dialoguePanel.transform);
+        newOptionPrefab.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 135 + optionIndex * -90);
+        newOptionPrefab.GetComponentInChildren<TMP_Text>().text = optionText;
+        newOptionPrefab.GetComponent<Button>().onClick.AddListener(() => onDialogueOptionButtonPressed(optionIndex));
+    }
+
+    private void onDialogueOptionButtonPressed(int optionIndex)
+    {
+        // DO SOMETHING BASED ON optionIndex
+
+        // Clear current options
+        options.Clear();
+
+        EventManager.instance.destroyDialogueOptionButtonsEvent.Invoke();
     }
 }
