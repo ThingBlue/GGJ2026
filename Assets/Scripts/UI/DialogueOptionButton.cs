@@ -24,8 +24,9 @@ public class DialogueOptionButton : MonoBehaviour
         // Subscribe to events
         EventManager.instance.destroyDialogueOptionButtonsEvent.AddListener(destroyButton);
 
-        // Set initial position and alpha
+        // Set initial alpha
         image.color = new Color(0, 0, 0, 0);
+        text.color = new Color(255, 255, 255, 0);
     }
 
     private void FixedUpdate()

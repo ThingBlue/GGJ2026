@@ -23,6 +23,8 @@ public class DialogueDisplay : MonoBehaviour
     private Queue<char> monologueCharacters = new Queue<char>();
 
     public List<string> options;
+    private bool optionsShown = false;
+    private bool optionSelected = false;
 
     private float characterOutputTimer = 0;
 
@@ -44,7 +46,7 @@ public class DialogueDisplay : MonoBehaviour
 
         if (Keyboard.current != null && Keyboard.current.vKey.wasPressedThisFrame)
         {
-            setDialogue("This is a debug output line", new List<string>{ "option 1", "option 2", "option 3", "option 4" }, onOutputComplete);
+            setDialogue("example name", "This is a debug output line", new List<string>{ "option 1", "option 2", "option 3", "option 4" }, onOutputComplete);
         }
     }
 
@@ -78,6 +80,12 @@ public class DialogueDisplay : MonoBehaviour
                 outputCompleteCallback = null;
             }
 
+            if (!optionsShown)
+            {
+                updateDialogueOptions();
+                optionsShown = true;
+            }
+
             // Keep timer at 0
             characterOutputTimer = 0;
         }
@@ -94,13 +102,19 @@ public class DialogueDisplay : MonoBehaviour
     #region Dialogue setters
 
     // All-in-one function
-    public void setDialogue(string monologue, List<string> options, OutputCompleteDelegate outputCompleteCallback = null)
+    public void setDialogue(string name, string monologue, List<string> options, OutputCompleteDelegate outputCompleteCallback = null)
     {
+        nameText.text = name;
         this.monologue = monologue;
         this.options = options;
         this.outputCompleteCallback = outputCompleteCallback;
         updateMonologueCharactersQueue();
-        updateDialogueOptions();
+        clearDialogueOptions();
+    }
+
+    public void setName(string name)
+    {
+        nameText.text = name;
     }
 
     public void setMonologue(string monologue)
@@ -112,7 +126,7 @@ public class DialogueDisplay : MonoBehaviour
     public void setOptions(List<string> options)
     {
         this.options = options;
-        updateDialogueOptions();
+        clearDialogueOptions();
     }
 
     public void setOutputCompleteDelegate(OutputCompleteDelegate outputCompleteCallback = null)
@@ -131,15 +145,21 @@ public class DialogueDisplay : MonoBehaviour
         for (int i = 0; i < monologue.Length; i++) monologueCharacters.Enqueue(monologue[i]);
     }
 
-    private void updateDialogueOptions()
+    private void clearDialogueOptions()
     {
         // Clear existing objects
+        optionsShown = false;
         EventManager.instance.destroyDialogueOptionButtonsEvent.Invoke();
+    }
+
+    private void updateDialogueOptions()
+    {
         // Create new option button objects
         for (int i = 0; i < options.Count; i++)
         {
             createOptionButtonPrefab(i, options[i]);
         }
+        optionSelected = false;
     }
 
     private void createOptionButtonPrefab(int optionIndex, string optionText)
@@ -153,6 +173,11 @@ public class DialogueDisplay : MonoBehaviour
 
     private void onDialogueOptionButtonPressed(int optionIndex)
     {
+        if (optionSelected) return; // Prevent player from clicking options multiple times
+        optionSelected = true;
+
+        Debug.Log("option selected: " + optionIndex);
+
         // DO SOMETHING BASED ON optionIndex
 
         // Clear current options
