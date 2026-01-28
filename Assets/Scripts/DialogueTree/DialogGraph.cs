@@ -41,6 +41,18 @@ public class DialogueExitNode : Node
 [Serializable]
 public class DialogueNode : Node
 {
+    protected override void OnDefinePorts(IPortDefinitionContext context)
+    {
+        context.AddInputPort("Input").Build();
+        context.AddInputPort<string>("NPC Dialogue").Build();
+
+        context.AddOutputPort("Output").Build();
+    }
+}
+
+[Serializable]
+public class DialogueChoiceNode : Node
+{
     const string numOutputs = "Number of Outputs";
 
     protected override void OnDefineOptions(IOptionDefinitionContext context)
@@ -56,10 +68,10 @@ public class DialogueNode : Node
         var numPortsName = GetNodeOptionByName(numOutputs);
         numPortsName.TryGetValue<int>(out int numPorts);
 
-        for(int i = 0; i < numPorts; i++)
+        for (int i = 0; i < numPorts; i++)
         {
-            context.AddInputPort<string>($"Option {i+1}").Build();
-            context.AddOutputPort($"Choice {i+1}").Build();
+            context.AddInputPort<string>($"Option {i}").Build();
+            context.AddOutputPort($"Choice {i}").Build();
         }
     }
 }

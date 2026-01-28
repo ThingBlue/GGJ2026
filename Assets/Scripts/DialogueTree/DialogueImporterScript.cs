@@ -20,6 +20,7 @@ public class DialogueImporterScript : ScriptedImporter
             nodeIDMap[node] = Guid.NewGuid().ToString();
         }
 
+        // TODO: Implement multiple head nodes
         var startNode = editorGraph.GetNodes().OfType<DialogueHeadNode>().FirstOrDefault();
 
         foreach (var iNode in editorGraph.GetNodes())
@@ -31,24 +32,44 @@ public class DialogueImporterScript : ScriptedImporter
             {
                 ProcessDialogueNode(dialogueNode, runTimeNode, nodeIDMap);
             }
-            else if(iNode is SuspicionComparisonNode suspicionNode)
+            else if(iNode is DialogueChoiceNode dChoiceNode)
             {
-                
+                ProcessChoiceNode(dChoiceNode, runTimeNode, nodeIDMap);
             }
+            
+
+            // TODO: Implement process functions for each type of node
         }
 
         ctx.AddObjectToAsset("RuntimeData", runtimeGraph);
         ctx.SetMainObject(runtimeGraph);
     }
 
+
+    #region Helper Functions
     private void ProcessDialogueNode(DialogueNode node, RuntimeDialogueNode runtimeNode, Dictionary<INode, string> nodeIDMap)
     {
-        runtimeNode.dialogueText = getPortValue<string>(node.GetInputPortByName("Dialogue"));
+        runtimeNode.dialogueText = getPortValue<string>(node.GetInputPortByName("NPC Dialogue"));
 
         var nextNodePort = node.GetOutputPortByName("output").firstConnectedPort;
         if(nextNodePort != null)
         {
             runtimeNode.nextNodeID = nodeIDMap[nextNodePort.GetNode()];
+        }
+    }
+
+    private void ProcessChoiceNode(DialogueChoiceNode node, RuntimeDialogueNode runtimeNode, Dictionary<INode, string> nodeIDMap)
+    {
+        runtimeNode.dialogueText = getPortValue<string>(node.GetInputPortByName("NPC Dialogue"));
+
+        // Load choices
+        node.GetNodeOptionByName("Number of Outputs").TryGetValue<int>(out int numChoices);
+        for(int i = 0; i < numChoices; i++)
+        {
+            node.GetInputPortByName("Option "+i.ToString()).TryGetValue(out string choiceText);
+            var choiceConnectedPort = node.GetOutputPortByName("Choice" + i.ToString()).firstConnectedPort;
+
+            runtimeNode.choices.Add(new ChoiceData { choiceString = choiceText, destNodeID = nodeIDMap[choiceConnectedPort.GetNode()] });
         }
     }
 
@@ -68,4 +89,5 @@ public class DialogueImporterScript : ScriptedImporter
         port.TryGetValue(out T fallbackValue);
         return fallbackValue;
     }
+    #endregion
 }

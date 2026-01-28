@@ -28,6 +28,11 @@ public class DialogueManager : MonoBehaviour
         showNode(RuntimeScript.FirstNodeID);
     }
 
+    private void Update()
+    {
+        // Check if node has choices
+    }
+
     private void showNode(string nodeID)
     {
         if(!_nodeLookup.ContainsKey(nodeID))
