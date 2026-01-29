@@ -236,10 +236,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.2}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.4}
-    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.6}
-    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.2}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.69803923}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.8}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_DisabledColor: {r: 0.496, g: 0.496, b: 0.496, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -273,5 +273,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueOptionButton
   image: {fileID: 4661472256913964113}
   text: {fileID: 5114069311544950059}
-  alphaMoveSpeed: 0.025
-  textAlphaMoveSpeed: 0.05
+  alphaMoveSpeed: 0.05
+  textAlphaMoveSpeed: 0.1
