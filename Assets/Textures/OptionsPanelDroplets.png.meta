@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: bc63a397330066f4eabafb200c52f45a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5816565053211060812
+    second: OptionsPanelDroplets_0
+  - first:
+      213: 7134265615051613914
+    second: OptionsPanelDroplets_1
+  - first:
+      213: 5480636042066715279
+    second: OptionsPanelDroplets_2
+  - first:
+      213: 526678167000073234
+    second: OptionsPanelDroplets_3
+  - first:
+      213: -6590300713143044769
+    second: OptionsPanelDroplets_4
+  - first:
+      213: -3953854738152949931
+    second: OptionsPanelDroplets_5
+  - first:
+      213: 5690651430996734728
+    second: OptionsPanelDroplets_6
+  - first:
+      213: -7365362240950480147
+    second: OptionsPanelDroplets_7
+  - first:
+      213: 5841191286350395262
+    second: OptionsPanelDroplets_8
+  - first:
+      213: -7999181062616649615
+    second: OptionsPanelDroplets_9
+  - first:
+      213: 3082609763909789534
+    second: OptionsPanelDroplets_10
+  - first:
+      213: -993446380626171127
+    second: OptionsPanelDroplets_11
+  - first:
+      213: -4265564675299924772
+    second: OptionsPanelDroplets_12
+  - first:
+      213: -8179325057977292109
+    second: OptionsPanelDroplets_13
+  - first:
+      213: 3035166590460206795
+    second: OptionsPanelDroplets_14
+  - first:
+      213: 3849242676069140861
+    second: OptionsPanelDroplets_15
+  - first:
+      213: 3961849581280040389
+    second: OptionsPanelDroplets_16
+  - first:
+      213: 3362317676744663903
+    second: OptionsPanelDroplets_17
+  - first:
+      213: -5434165853181389149
+    second: OptionsPanelDroplets_18
+  - first:
+      213: 1629143119910835369
+    second: OptionsPanelDroplets_19
+  - first:
+      213: -2405985677954449018
+    second: OptionsPanelDroplets_20
+  - first:
+      213: 4864806057838678703
+    second: OptionsPanelDroplets_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 278
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5576ec6e8674fa0800000000000000
+      internalID: -5816565053211060812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 253
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad66f6627c0020360800000000000000
+      internalID: 7134265615051613914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 339
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82e69e41712f0c40800000000000000
+      internalID: 5480636042066715279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 87
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2144efe90032f4700800000000000000
+      internalID: 526678167000073234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 106
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55fa161b6c8a84a0800000000000000
+      internalID: -6590300713143044769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 233
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557f5e660161129c0800000000000000
+      internalID: -3953854738152949931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 153
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803f02d735149fe40800000000000000
+      internalID: 5690651430996734728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 268
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de25212b01af8c990800000000000000
+      internalID: -7365362240950480147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 57
+        width: 284
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77b508e684101150800000000000000
+      internalID: 5841191286350395262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 30
+        width: 258
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f3bc74333df090800000000000000
+      internalID: -7999181062616649615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 314
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e576ef67f31a7ca20800000000000000
+      internalID: 3082609763909789534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_11
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 365
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b2163c7c19632f0800000000000000
+      internalID: -993446380626171127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 301
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd42b4a178badc4c0800000000000000
+      internalID: -4265564675299924772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 305
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baefc812333d7e80800000000000000
+      internalID: -8179325057977292109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_14
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 158
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce938adee31f1a20800000000000000
+      internalID: 3035166590460206795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_15
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 280
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d790069d1d14b6530800000000000000
+      internalID: 3849242676069140861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_16
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 134
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c51ab114315bf630800000000000000
+      internalID: 3961849581280040389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_17
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 89
+        width: 147
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53e168dc1a59ae20800000000000000
+      internalID: 3362317676744663903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_18
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 358
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6d09ea2f6f594b0800000000000000
+      internalID: -5434165853181389149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_19
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a49e863901eb9610800000000000000
+      internalID: 1629143119910835369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_20
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 82
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68109daf5c83c9ed0800000000000000
+      internalID: -2405985677954449018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsPanelDroplets_21
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 367
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa294a2b553438340800000000000000
+      internalID: 4864806057838678703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OptionsPanelDroplets_0: -5816565053211060812
+      OptionsPanelDroplets_1: 7134265615051613914
+      OptionsPanelDroplets_10: 3082609763909789534
+      OptionsPanelDroplets_11: -993446380626171127
+      OptionsPanelDroplets_12: -4265564675299924772
+      OptionsPanelDroplets_13: -8179325057977292109
+      OptionsPanelDroplets_14: 3035166590460206795
+      OptionsPanelDroplets_15: 3849242676069140861
+      OptionsPanelDroplets_16: 3961849581280040389
+      OptionsPanelDroplets_17: 3362317676744663903
+      OptionsPanelDroplets_18: -5434165853181389149
+      OptionsPanelDroplets_19: 1629143119910835369
+      OptionsPanelDroplets_2: 5480636042066715279
+      OptionsPanelDroplets_20: -2405985677954449018
+      OptionsPanelDroplets_21: 4864806057838678703
+      OptionsPanelDroplets_3: 526678167000073234
+      OptionsPanelDroplets_4: -6590300713143044769
+      OptionsPanelDroplets_5: -3953854738152949931
+      OptionsPanelDroplets_6: 5690651430996734728
+      OptionsPanelDroplets_7: -7365362240950480147
+      OptionsPanelDroplets_8: 5841191286350395262
+      OptionsPanelDroplets_9: -7999181062616649615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

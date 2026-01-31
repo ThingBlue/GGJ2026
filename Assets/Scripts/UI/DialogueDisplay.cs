@@ -13,9 +13,12 @@ public class DialogueDisplay : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
-    public GameObject dialogueOptionButtonPrefab;
-
     public float characterOutputDelay;
+
+    public GameObject dialogueOptionButtonPrefab;
+    public Image optionsPanelDroplets;
+
+    public float optionsPanelAlphaMoveSpeed;
 
     #endregion
 
@@ -23,13 +26,15 @@ public class DialogueDisplay : MonoBehaviour
     private Queue<char> monologueCharacters = new Queue<char>();
 
     public List<string> options;
-    private bool optionsShown = false;
-    private bool optionSelected = false;
+    private bool optionsShown = true;
+    private bool optionSelected = true;
 
     private float characterOutputTimer = 0;
 
     public delegate void OutputCompleteDelegate();
     private OutputCompleteDelegate outputCompleteCallback;
+
+    private float optionsPanelTargetAlpha = 0;
 
     public static DialogueDisplay instance;
     private void Awake()
@@ -46,11 +51,11 @@ public class DialogueDisplay : MonoBehaviour
 
         if (Keyboard.current != null && Keyboard.current.vKey.wasPressedThisFrame)
         {
-            setDialogue("example name", "This is a debug output line", new List<string>{ "option 1", "option 2", "option 3", "option 4" }, onOutputComplete);
+            setDialogue("example name", "This is a debug output line", new List<string>{ "option 1", "option 2", "option 3", "option 4" }, onDebugOutputComplete);
         }
     }
 
-    private void onOutputComplete()
+    private void onDebugOutputComplete()
     {
         Debug.Log("debug output finished");
     }
@@ -90,13 +95,9 @@ public class DialogueDisplay : MonoBehaviour
             characterOutputTimer = 0;
         }
 
-        /*
         // Handle alpha
-        dialogueAlpha = Mathf.MoveTowards(dialogueAlpha, targetAlpha, fadeSpeed);
-        nameText.color = new Color(255, 255, 255, dialogueAlpha);
-        dialogueText.color = new Color(255, 255, 255, dialogueAlpha);
-        dialogueBox.color = new Color(0, 0, 0, dialogueAlpha * 0.6f);
-        */
+        float optionsPanelAlpha = Mathf.MoveTowards(optionsPanelDroplets.color.a, optionsPanelTargetAlpha, optionsPanelAlphaMoveSpeed);
+        optionsPanelDroplets.color = new Color(1, 1, 1, optionsPanelAlpha);
     }
 
     #region Dialogue setters
@@ -150,6 +151,7 @@ public class DialogueDisplay : MonoBehaviour
         // Clear existing objects
         optionsShown = false;
         EventManager.instance.destroyDialogueOptionButtonsEvent.Invoke();
+        optionsPanelTargetAlpha = 0;
     }
 
     private void updateDialogueOptions()
@@ -159,6 +161,7 @@ public class DialogueDisplay : MonoBehaviour
         {
             createOptionButtonPrefab(i, options[i]);
         }
+        optionsPanelTargetAlpha = 0.3f;
         optionSelected = false;
     }
 
@@ -184,5 +187,6 @@ public class DialogueDisplay : MonoBehaviour
         options.Clear();
 
         EventManager.instance.destroyDialogueOptionButtonsEvent.Invoke();
+        optionsPanelTargetAlpha = 0;
     }
 }
