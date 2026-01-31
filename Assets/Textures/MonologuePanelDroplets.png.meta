@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 3308c434d736b50439b7a9f1e1ec6618
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3094791403009609789
+    second: MonologuePanelDroplets_0
+  - first:
+      213: 884335810238739101
+    second: MonologuePanelDroplets_1
+  - first:
+      213: -6263239504024799837
+    second: MonologuePanelDroplets_2
+  - first:
+      213: 2116605572184039469
+    second: MonologuePanelDroplets_3
+  - first:
+      213: 8966275278713065809
+    second: MonologuePanelDroplets_4
+  - first:
+      213: -5918228632820814758
+    second: MonologuePanelDroplets_5
+  - first:
+      213: -3445352939657242538
+    second: MonologuePanelDroplets_6
+  - first:
+      213: 1300750971891812284
+    second: MonologuePanelDroplets_7
+  - first:
+      213: 5313039337574606246
+    second: MonologuePanelDroplets_8
+  - first:
+      213: -6181152334853546723
+    second: MonologuePanelDroplets_9
+  - first:
+      213: -374196211305376707
+    second: MonologuePanelDroplets_10
+  - first:
+      213: -8869945015432700284
+    second: MonologuePanelDroplets_11
+  - first:
+      213: -7082255036382557807
+    second: MonologuePanelDroplets_12
+  - first:
+      213: -6406950152346574041
+    second: MonologuePanelDroplets_13
+  - first:
+      213: -8400279009539543516
+    second: MonologuePanelDroplets_14
+  - first:
+      213: -7700372916860012357
+    second: MonologuePanelDroplets_15
+  - first:
+      213: -8759057684758189606
+    second: MonologuePanelDroplets_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 518
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfeda9ad971d05d0800000000000000
+      internalID: -3094791403009609789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 541
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92ff67ebbac54c00800000000000000
+      internalID: 884335810238739101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 367
+        width: 136
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5786bead08419a0800000000000000
+      internalID: -6263239504024799837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 455
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2064abbd81bf5d10800000000000000
+      internalID: 2116605572184039469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 472
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1511f025cdb9e6c70800000000000000
+      internalID: 8966275278713065809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_5
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 466
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c6b212a6a3edda0800000000000000
+      internalID: -5918228632820814758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 363
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658d1e171c5af20d0800000000000000
+      internalID: -3445352939657242538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_7
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 345
+        width: 8
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb70bd40e123d0210800000000000000
+      internalID: 1300750971891812284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_8
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 414
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5afc9b025bbb940800000000000000
+      internalID: 5313039337574606246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_9
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 288
+        width: 181
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d5a7a53b2283aa0800000000000000
+      internalID: -6181152334853546723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_10
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 423
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3498d447869ecaf0800000000000000
+      internalID: -374196211305376707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 327
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e13e1e000a7e480800000000000000
+      internalID: -8869945015432700284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 141
+        width: 130
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19942bb5196c6bd90800000000000000
+      internalID: -7082255036382557807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 103
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7236fbb28c0f517a0800000000000000
+      internalID: -6406950152346574041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_14
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 188
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ea9365fb63c6b80800000000000000
+      internalID: -8400279009539543516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8358461a7c22590800000000000000
+      internalID: -7700372916860012357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonologuePanelDroplets_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 75
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad925d47173917680800000000000000
+      internalID: -8759057684758189606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MonologuePanelDroplets_0: -3094791403009609789
+      MonologuePanelDroplets_1: 884335810238739101
+      MonologuePanelDroplets_10: -374196211305376707
+      MonologuePanelDroplets_11: -8869945015432700284
+      MonologuePanelDroplets_12: -7082255036382557807
+      MonologuePanelDroplets_13: -6406950152346574041
+      MonologuePanelDroplets_14: -8400279009539543516
+      MonologuePanelDroplets_15: -7700372916860012357
+      MonologuePanelDroplets_16: -8759057684758189606
+      MonologuePanelDroplets_2: -6263239504024799837
+      MonologuePanelDroplets_3: 2116605572184039469
+      MonologuePanelDroplets_4: 8966275278713065809
+      MonologuePanelDroplets_5: -5918228632820814758
+      MonologuePanelDroplets_6: -3445352939657242538
+      MonologuePanelDroplets_7: 1300750971891812284
+      MonologuePanelDroplets_8: 5313039337574606246
+      MonologuePanelDroplets_9: -6181152334853546723
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
