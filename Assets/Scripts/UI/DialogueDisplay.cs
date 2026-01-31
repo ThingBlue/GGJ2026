@@ -36,6 +36,12 @@ public class DialogueDisplay : MonoBehaviour
 
     private float optionsPanelTargetAlpha = 0;
 
+    // Input
+    private bool digit1KeyDown = false;
+    private bool digit2KeyDown = false;
+    private bool digit3KeyDown = false;
+    private bool digit4KeyDown = false;
+
     public static DialogueDisplay instance;
     private void Awake()
     {
@@ -48,6 +54,13 @@ public class DialogueDisplay : MonoBehaviour
     {
         // Handle timer
         characterOutputTimer += Time.deltaTime;
+
+        // Handle input
+        if (Keyboard.current != null && Keyboard.current.digit1Key.wasPressedThisFrame) digit1KeyDown = true;
+        if (Keyboard.current != null && Keyboard.current.digit2Key.wasPressedThisFrame) digit2KeyDown = true;
+        if (Keyboard.current != null && Keyboard.current.digit3Key.wasPressedThisFrame) digit3KeyDown = true;
+        if (Keyboard.current != null && Keyboard.current.digit4Key.wasPressedThisFrame) digit4KeyDown = true;
+
 
         if (Keyboard.current != null && Keyboard.current.vKey.wasPressedThisFrame)
         {
@@ -62,6 +75,12 @@ public class DialogueDisplay : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Handle input
+        if (digit1KeyDown) onDialogueOptionButtonPressed(1);
+        if (digit2KeyDown) onDialogueOptionButtonPressed(2);
+        if (digit3KeyDown) onDialogueOptionButtonPressed(3);
+        if (digit4KeyDown) onDialogueOptionButtonPressed(4);
+
         // Output text
         if (monologueCharacters.Count > 0)
         {
@@ -98,6 +117,12 @@ public class DialogueDisplay : MonoBehaviour
         // Handle alpha
         float optionsPanelAlpha = Mathf.MoveTowards(optionsPanelDroplets.color.a, optionsPanelTargetAlpha, optionsPanelAlphaMoveSpeed);
         optionsPanelDroplets.color = new Color(1, 1, 1, optionsPanelAlpha);
+
+        // Reset key downs
+        digit1KeyDown = false;
+        digit2KeyDown = false;
+        digit3KeyDown = false;
+        digit4KeyDown = false;
     }
 
     #region Dialogue setters
