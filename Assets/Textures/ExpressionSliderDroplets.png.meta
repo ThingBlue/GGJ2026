@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 26df8c24726280e44a4857f1ab611639
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5178573551158467248
+    second: ExpressionSliderDroplets_0
+  - first:
+      213: -262053848788782889
+    second: ExpressionSliderDroplets_1
+  - first:
+      213: -3196025352946753098
+    second: ExpressionSliderDroplets_2
+  - first:
+      213: 2659271209881355454
+    second: ExpressionSliderDroplets_3
+  - first:
+      213: 8133888907825709778
+    second: ExpressionSliderDroplets_4
+  - first:
+      213: 5125694756701712414
+    second: ExpressionSliderDroplets_5
+  - first:
+      213: -1774803308006845054
+    second: ExpressionSliderDroplets_6
+  - first:
+      213: 7466545341246952689
+    second: ExpressionSliderDroplets_7
+  - first:
+      213: -6693038560446593895
+    second: ExpressionSliderDroplets_8
+  - first:
+      213: -5442694044847296422
+    second: ExpressionSliderDroplets_9
+  - first:
+      213: 7038551469412692611
+    second: ExpressionSliderDroplets_10
+  - first:
+      213: -781219979202810507
+    second: ExpressionSliderDroplets_11
+  - first:
+      213: -8912943578072564653
+    second: ExpressionSliderDroplets_12
+  - first:
+      213: -3747130951701367798
+    second: ExpressionSliderDroplets_13
+  - first:
+      213: 2992223280244701625
+    second: ExpressionSliderDroplets_14
+  - first:
+      213: 2988969637757783560
+    second: ExpressionSliderDroplets_15
+  - first:
+      213: 9166698927212388938
+    second: ExpressionSliderDroplets_16
+  - first:
+      213: 1081171152089879399
+    second: ExpressionSliderDroplets_17
+  - first:
+      213: -7116143379998021929
+    second: ExpressionSliderDroplets_18
+  - first:
+      213: 1932729717878942732
+    second: ExpressionSliderDroplets_19
+  - first:
+      213: 9192821331933435187
+    second: ExpressionSliderDroplets_20
+  - first:
+      213: 6024102933913458925
+    second: ExpressionSliderDroplets_21
+  - first:
+      213: 122813317064405145
+    second: ExpressionSliderDroplets_22
+  - first:
+      213: 6243825769019941589
+    second: ExpressionSliderDroplets_23
+  - first:
+      213: 4697580446018522101
+    second: ExpressionSliderDroplets_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba9800253dfdd740800000000000000
+      internalID: 5178573551158467248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0bbe6b96ffc5cf0800000000000000
+      internalID: -262053848788782889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 174
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b16770ffdf65a3d0800000000000000
+      internalID: -3196025352946753098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 186
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4c6627311a7e420800000000000000
+      internalID: 2659271209881355454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 117
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d20171ddd061e070800000000000000
+      internalID: 8133888907825709778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 170
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10b9406930222740800000000000000
+      internalID: 5125694756701712414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 179
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28550107bc1ae57e0800000000000000
+      internalID: -1774803308006845054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 104
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f45f5cad6f7e9760800000000000000
+      internalID: 7466545341246952689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 198
+        width: 68
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994c698f3ec8d13a0800000000000000
+      internalID: -6693038560446593895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 105
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a503eb35a9aa774b0800000000000000
+      internalID: -5442694044847296422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 150
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382b5a30545fda160800000000000000
+      internalID: 7038551469412692611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 178
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dad28619c8825f0800000000000000
+      internalID: -781219979202810507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 163
+        width: 57
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cb2edd90dde4480800000000000000
+      internalID: -8912943578072564653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 75
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04f7f8a0448ffbc0800000000000000
+      internalID: -3747130951701367798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9b3ab4833868920800000000000000
+      internalID: 2992223280244701625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 140
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e0bfe9c04fa7920800000000000000
+      internalID: 2988969637757783560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_16
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 85
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42e2776b18a63f70800000000000000
+      internalID: 9166698927212388938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 54
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76397bd3f67110f00800000000000000
+      internalID: 1081171152089879399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_18
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 106
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d668708c416e3d90800000000000000
+      internalID: -7116143379998021929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ce309307f62da10800000000000000
+      internalID: 1932729717878942732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 105
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3359685bb46739f70800000000000000
+      internalID: 9192821331933435187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 52
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8dc4a83b9e99350800000000000000
+      internalID: 6024102933913458925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 27
+        width: 91
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990bf49af0254b100800000000000000
+      internalID: 122813317064405145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 16
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d22dd9a47686a650800000000000000
+      internalID: 6243825769019941589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressionSliderDroplets_24
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 38
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb41ccd688213140800000000000000
+      internalID: 4697580446018522101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExpressionSliderDroplets_0: 5178573551158467248
+      ExpressionSliderDroplets_1: -262053848788782889
+      ExpressionSliderDroplets_10: 7038551469412692611
+      ExpressionSliderDroplets_11: -781219979202810507
+      ExpressionSliderDroplets_12: -8912943578072564653
+      ExpressionSliderDroplets_13: -3747130951701367798
+      ExpressionSliderDroplets_14: 2992223280244701625
+      ExpressionSliderDroplets_15: 2988969637757783560
+      ExpressionSliderDroplets_16: 9166698927212388938
+      ExpressionSliderDroplets_17: 1081171152089879399
+      ExpressionSliderDroplets_18: -7116143379998021929
+      ExpressionSliderDroplets_19: 1932729717878942732
+      ExpressionSliderDroplets_2: -3196025352946753098
+      ExpressionSliderDroplets_20: 9192821331933435187
+      ExpressionSliderDroplets_21: 6024102933913458925
+      ExpressionSliderDroplets_22: 122813317064405145
+      ExpressionSliderDroplets_23: 6243825769019941589
+      ExpressionSliderDroplets_24: 4697580446018522101
+      ExpressionSliderDroplets_3: 2659271209881355454
+      ExpressionSliderDroplets_4: 8133888907825709778
+      ExpressionSliderDroplets_5: 5125694756701712414
+      ExpressionSliderDroplets_6: -1774803308006845054
+      ExpressionSliderDroplets_7: 7466545341246952689
+      ExpressionSliderDroplets_8: -6693038560446593895
+      ExpressionSliderDroplets_9: -5442694044847296422
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
