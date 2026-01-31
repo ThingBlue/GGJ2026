@@ -20,6 +20,8 @@ public class DialogueDisplay : MonoBehaviour
 
     public float optionsPanelAlphaMoveSpeed;
 
+    public Slider expressionSlider;
+
     #endregion
 
     public string monologue;
@@ -61,10 +63,11 @@ public class DialogueDisplay : MonoBehaviour
         if (Keyboard.current != null && Keyboard.current.digit3Key.wasPressedThisFrame) digit3KeyDown = true;
         if (Keyboard.current != null && Keyboard.current.digit4Key.wasPressedThisFrame) digit4KeyDown = true;
 
-
         if (Keyboard.current != null && Keyboard.current.vKey.wasPressedThisFrame)
         {
-            setDialogue("example name", "This is a debug output line", new List<string>{ "option 1", "option 2", "option 3", "option 4" }, onDebugOutputComplete);
+            string debugText = "The Fall of Constantinople, also known as the Conquest of Constantinople, was the capture of the capital of the Byzantine Empire by the Ottoman Empire. The city was captured on 29 May 1453 as part of the culmination of a 53-day siege which had begun on 6 April.";
+            debugText = "Hello world!";
+            setDialogue("Fall of Constantinople", debugText, new List<string>{ "Option 1", "Option 2", "Option 3", "Option 4" }, onDebugOutputComplete);
         }
     }
 
@@ -123,6 +126,11 @@ public class DialogueDisplay : MonoBehaviour
         digit2KeyDown = false;
         digit3KeyDown = false;
         digit4KeyDown = false;
+    }
+
+    public float getExpressionSliderValue()
+    {
+        return expressionSlider.value;
     }
 
     #region Dialogue setters
