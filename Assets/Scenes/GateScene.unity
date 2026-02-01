@@ -21571,9 +21571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439b450eee68f364296b38a723709eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
-  panSmoothTime: 0
-  boundaryStart: 0
-  boundaryEnd: 0
+  panSmoothTime: 1
+  boundaryStart: -2
+  boundaryEnd: 15
 --- !u!1 &1850954953
 GameObject:
   m_ObjectHideFlags: 0
