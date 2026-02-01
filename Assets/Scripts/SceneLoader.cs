@@ -12,6 +12,14 @@ public class SceneLoader : MonoBehaviour
 
     #endregion
 
+    public static SceneLoader instance;
+    private void Awake()
+    {
+        // Singleton
+        if (instance == null) instance = this;
+        else Destroy(this);
+    }
+
     float targetFadeAlpha = 0;
     string sceneToLoad = "";
 

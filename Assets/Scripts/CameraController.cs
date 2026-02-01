@@ -30,7 +30,8 @@ public class CameraController : MonoBehaviour
 
         // Move towards target position
         Vector3 newPosition = transform.position;
-        newPosition.y = Mathf.SmoothDamp(newPosition.y, targetPosition, ref panVelocity, panSmoothTime);
+        newPosition.y = Mathf.MoveTowards(newPosition.y, targetPosition, (1.0f / panSmoothTime) * Time.deltaTime);
+        //newPosition.y = Mathf.SmoothDamp(newPosition.y, targetPosition, ref panVelocity, panSmoothTime);
         newPosition.y = Mathf.Clamp(newPosition.y, boundaryStart, boundaryEnd); // Clamp to boundary
         transform.position = newPosition;
     }

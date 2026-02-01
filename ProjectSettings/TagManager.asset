@@ -44,6 +44,9 @@ TagManager:
   - name: Player
     uniqueID: 3636082927
     locked: 0
+  - name: TilesInFrontOfPlayer
+    uniqueID: 112958929
+    locked: 0
   - name: UI
     uniqueID: 1152665281
     locked: 0
