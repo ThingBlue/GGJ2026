@@ -367,6 +367,7 @@ GameObject:
   - component: {fileID: 253333140}
   - component: {fileID: 253333145}
   - component: {fileID: 253333144}
+  - component: {fileID: 253333146}
   m_Layer: 5
   m_Name: UICanvas
   m_TagString: Untagged
@@ -500,6 +501,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253333139}
   m_CullTransparentMesh: 1
+--- !u!225 &253333146
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253333139}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &395004445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a66df2a41a9a3f04f86e41ea65717ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueDisplay
+  canvasGroup: {fileID: 253333146}
+  canvasGroupAlphaMoveSpeed: 0.05
   dialoguePanel: {fileID: 887534295}
   nameText: {fileID: 1702323264}
   dialogueText: {fileID: 2022743445}

@@ -424,13 +424,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81ae6e7112d973c4f83df7e4a91afe14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueOptionButton
-  background: {fileID: 4661472256913964113}
   border: {fileID: 6395392284025089471}
   borderHovered: {fileID: 7921840426429738568}
   arrow: {fileID: 6271197323467625343}
   text: {fileID: 5114069311544950059}
-  backgroundAlphaMoveSpeed: 0.05
-  foregroundAlphaMoveSpeed: 0.1
+  foregroundAlphaSmoothTime: 0.5
 --- !u!1 &8380959482146502886
 GameObject:
   m_ObjectHideFlags: 0

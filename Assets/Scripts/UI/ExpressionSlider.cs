@@ -8,7 +8,7 @@ public class ExpressionSlider : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     public Image fillImage;
 
-    public float fillAlphaMoveSpeed;
+    public float fillAlphaSmoothTime;
 
     #endregion
 
@@ -19,9 +19,9 @@ public class ExpressionSlider : MonoBehaviour, IPointerDownHandler, IPointerUpHa
         fillImage.color = new Color(1, 1, 1, 0);
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        float fillAlpha = Mathf.MoveTowards(fillImage.color.a, targetFillAlpha, fillAlphaMoveSpeed);
+        float fillAlpha = Mathf.MoveTowards(fillImage.color.a, targetFillAlpha, (1.0f / fillAlphaSmoothTime) * Time.deltaTime);
         fillImage.color = new Color(1, 1, 1, fillAlpha);
     }
 
