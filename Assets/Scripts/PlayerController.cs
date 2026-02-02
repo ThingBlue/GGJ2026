@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         if (movement.magnitude > 0)
         {
             movement = Vector3.Normalize(movement);
-            velocity += movement * accelerationSpeed * Time.deltaTime;
+            velocity += movement * accelerationSpeed * Time.fixedDeltaTime;
         }
 
         // Decelerate if no input or opposite on an axis
@@ -60,6 +60,6 @@ public class PlayerController : MonoBehaviour
         if (velocity.magnitude > maxMoveSpeed) velocity *= (maxMoveSpeed / velocity.magnitude);
 
         // Move player
-        transform.position += velocity * Time.deltaTime;
+        transform.position += velocity * Time.fixedDeltaTime;
     }
 }

@@ -1,9 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEditor.Rendering.MaterialUpgrader;
 
 public class DialogueOptionButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
